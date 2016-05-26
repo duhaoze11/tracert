@@ -30,8 +30,6 @@ namespace tracert
             _ip = ip;
             QQwry();
             result = country + " " + local;
-            result = result.Replace("CZ88.NET", "");
-            result = result.Replace("台湾省", "台湾");
             return result;
         }
 
